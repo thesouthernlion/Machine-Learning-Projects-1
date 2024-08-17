@@ -29,5 +29,3 @@ rf.fit(X_train, y_train)
 first_row = X_test[0]
 print("prediction: ", rf.predict([first_row]))
 print("true value: ", y_test[0])
-
-
